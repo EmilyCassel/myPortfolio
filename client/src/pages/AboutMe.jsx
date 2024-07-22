@@ -10,7 +10,7 @@ function AboutMe() {
                 </div>
 
                 <div className="aboutMeSummaryBox">
-                    <h1 className="aboutMeHeader">My Story</h1>
+                    <h1 className="aboutMeHeader">About Me</h1>
                         <p className="aboutMeParagraph">
                         I am a full stack web development looking to launch my career in this field. I live in Indiana. My days are spent coding, reading, and enjoying time outside with my dog. I also enjoy backpacking, history, and travel. My goal is to bring a creative and engaging user experience to any project I work on. 
                         </p>

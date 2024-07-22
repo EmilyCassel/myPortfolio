@@ -11,13 +11,18 @@ function Portfolio() {
     <div>
       <div id="top"></div>
       <div className="inProjectLinks">
-          <button className="projectLinkButton" onClick={() => scrollToSection('workExperience')}>Completed Projects</button>
-          <button className="projectLinkButton" onClick={() => scrollToSection('education')}>In-Progress Projects</button>
+          <a href="#completedProjects">
+                    <button className="resumeLinkButton">Completed Projects</button>
+                </a>
+                <a href="#inProgressProjects">
+                    <button className="resumeLinkButton">In-Progress Projects</button>
+                </a>
         </div>
+
       <hr></hr>
 
       <div className="allProjects">
-        <div className="allCompletedProjects">
+        <div id="completedProjects" className="allCompletedProjects">
           <h1 className="projectsHeader">Completed Projects</h1>
 
           <h2 className="projectName">FreeLancers</h2>
@@ -61,7 +66,7 @@ function Portfolio() {
 
         <hr className="projectLine"></hr>
 
-        <div className="allProgressProjects">
+        <div id="inProgressProjects" className="allProgressProjects">
           <h1 className="projectsHeader">In-Progress Projects</h1>
 
           <h2 className="projectName">CU@LilRedBarn Nigerian Dwarf Dairy Goat Farm</h2>

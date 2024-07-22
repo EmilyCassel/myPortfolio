@@ -10,8 +10,6 @@
   color-scheme: light dark;
   // background-color: rgb(206, 204, 204);
   background-color: rgb(218, 213, 213);
-  
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -71,6 +69,13 @@ main{
   margin: 0;
 }
 
+.homeLine{
+  border: none; 
+  border-top: 2px solid #c9647a;
+  padding: 10px 20px 0px 0px;
+  margin: 10px 0px 0px 0px; 
+}
+
 .mainLink{
   display: flex;
   color: bisque;
@@ -82,16 +87,6 @@ main{
 
 }
 
-
-
-
-
-
-
-
-
-
-//Home Page
 .homeIntro{
   display: flex;
   flex-direction: column;
@@ -100,9 +95,16 @@ main{
 }
 
 .introName{
-  font-size: 450%;
+  font-size: 400%;
   margin: 0;
   color: rgb(177, 38, 98);
+  padding-bottom: 10px;
+}
+
+.jobAm{
+  font-size: 200%;
+  margin: 0;
+  color: black;
   padding-bottom: 10px;
 }
 
