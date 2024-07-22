@@ -8,23 +8,35 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  // background-color: rgb(206, 204, 204);
   background-color: rgb(218, 213, 213);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 body, html{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   overflow-x: clip;
- 
+  display: flex;
+}
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 main{
@@ -69,12 +81,6 @@ main{
   margin: 0;
 }
 
-.homeLine{
-  border: none; 
-  border-top: 2px solid #c9647a;
-  padding: 10px 20px 0px 0px;
-  margin: 10px 0px 0px 0px; 
-}
 
 .mainLink{
   display: flex;
@@ -87,6 +93,9 @@ main{
 
 }
 
+
+
+//home
 .homeIntro{
   display: flex;
   flex-direction: column;
@@ -95,29 +104,42 @@ main{
 }
 
 .introName{
-  font-size: 400%;
+  font-size: 380%;
   margin: 0;
   color: rgb(177, 38, 98);
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 .jobAm{
-  font-size: 200%;
+  font-size: 270%;
   margin: 0;
   color: black;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 .introLines{
-  font-size: 200%;
-  padding-top: 0;
-  padding-bottom: 0;
+  font-size: 225%;
+  padding-top: 0px 0px 0px 0px;
   margin: 0px;
   margin-bottom: 0px;
 }
 
 
+.link{
+  padding: 0px 15px 0px 15px;
+  color: rgb(177, 38, 98);
+  font-size: 150%;
+  padding-top: 0px ;
+}
 
+.homeLine{
+  display: flex;
+  border: none; 
+  border-top: 2px solid #c9647a;
+  padding: 10px 0px 0px 0px;
+  margin: 10px auto 0px auto; 
+  width: 34%;
+}
 
 
 
@@ -498,12 +520,7 @@ hr{
   padding-top: 20px;
 }
 
-.link{
-  padding: 0px 15px 0px 15px;
-  color: rgb(177, 38, 98);
-  font-size: 125%;
-  
-}
+
 
 
 //projects
@@ -734,41 +751,9 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //footer
 .footer{
   display: flex;
-  // background-color: rgb(62, 62, 65);
-  // background-color: rgb(211, 116, 137);
   background-color: rgb(218, 213, 213);
   flex-direction: row;
   justify-content: center;
@@ -776,15 +761,5 @@ hr{
   font-size: 125%;
   padding-top: 30px;
   margin: 0;
+  padding-bottom: 0;
 }
-
-
-//home page 
-
-
-
-
-
-
-
-
