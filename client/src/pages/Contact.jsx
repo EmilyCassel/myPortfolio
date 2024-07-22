@@ -99,6 +99,10 @@ function Contact() {
           {result}
         </form>
       </div>
+      <div className="myLinks">
+                        <a className="link" href="https://www.linkedin.com/in/emily-cassel-5a2980245/">LinkedIn</a>
+                        <a className="link" href="https://github.com/EmilyCassel">GitHub</a>
+                    </div>
     </div>
   );
 }
