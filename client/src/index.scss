@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+
+
+//  #d66695;
+:root {
+  font-family: baskervville-sc-regular;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  // background-color: rgb(206, 204, 204);
+  background-color: rgb(218, 213, 213);
+  
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow-x: clip;
+ 
+
+}
+
+main{
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//header 
+.header{
+  display: flex;
+  background-color: rgb(174, 82, 102);
+  // background-color: rgb(62, 62, 65);
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3px;
+  margin: 0;
+}
+
+.myName{
+  display: flex;
+  color: pink;
+  padding-left: 20px;
+  font-size: 150%;
+  margin: 0;
+  padding: 1px 0px 0px 25px;
+}
+
+.homePageLinks{
+  display: flex;
+  flex-direction: row;
+  padding: 1px 0px 0px 0px;
+  margin: 0;
+}
+
+.mainLink{
+  display: flex;
+  color: bisque;
+  padding-left: 15px;
+  font-size: 150%;
+  margin: 0;
+  padding-bottom: 0;
+  padding-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+//Home Page
+.homeIntro{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 70px 0px 70px;
+}
+
+.introName{
+  font-size: 450%;
+  margin: 0;
+  color: rgb(177, 38, 98);
+  padding-bottom: 10px;
+}
+
+.introLines{
+  font-size: 200%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+//Resume
+
+.resumeAll{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.inPageLinks{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px 10px 0px 100px;
+  justify-content: space-between;
+}
+
+
+.resumeLinkButton{
+  border: 0px;
+  background-color: rgb(218, 213, 213);
+  font-size: 175%;
+}
+
+
+.resumeAllSections{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+hr{
+  border: none; 
+  border-top: 2px solid #c9647a; 
+  margin: 20px 0; 
+}
+
+
+.sectionHeader{
+  display: flex;
+  font-size: 275%;
+  padding: 15px 0 10px 10px;
+  margin: 0;
+  text-decoration: underline;
+}
+
+//Skills
+
+
+.skillTypeSection{
+  display: flex;
+  font-size: 225%;
+  padding: 10px 0 7px 25px;
+  margin: 0;
+}
+
+.technicalSkillType{
+  display: flex;
+  font-size: 140%;
+  padding: 7px 0 7px 35px;
+  margin: 0;
+}
+
+.skillInformation{
+  display: flex;
+  font-size: 140%;
+  padding: 1px 0 2px 45px;
+  margin: 0;
+}
+
+.transferableSkillTypeSection{
+  display: flex;
+  font-size: 225%;
+  padding: 13px 0 0px 25px;
+  margin: 0;
+}
+
+.transferableSkillInformation{
+  display: flex;
+  font-size: 140%;
+  padding: 1px 0 2px 35px;
+  margin: 0;
+  &::before {
+    content: '•'; 
+    position: absolute;
+    left: 58px;
+    font-size: 1.5em; 
+    line-height: 0.8; 
+  }
+}
+
+
+
+
+
+
+
+
+
+//Work Experience 
+
+
+.workHeader{
+  display: flex;
+  font-size: 225%;
+  padding: 10px 0 7px 20px;
+  margin: 0;
+}
+
+
+.workBusiness{
+  display: flex;
+  font-size: 140%;
+  padding: 7px 0 7px 25px;
+  margin: 0;
+}
+
+
+.keyAccomplishments{
+  display: flex;
+  font-size: 140%;
+  padding: 3px 0 2px 35px;
+  margin: 0;
+}
+
+
+.dutiesKey{
+  display: flex;
+  font-size: 125%;
+  padding: 5px 0 5px 60px;
+  margin: 0;
+
+  &::before {
+    content: '•'; 
+    position: absolute;
+    left: 58px;
+    font-size: 1.5em; 
+    line-height: 0.8; 
+  }
+}
+
+
+.dutiesKeyPH6{
+  display: flex;
+  font-size: 125%;
+  padding: 5px 0 5px 68px;
+  margin: 0;
+
+  &::before {
+    content: '-'; 
+    position: absolute;
+    left: 67px;
+    font-size: 1.5em; 
+    line-height: 0.8; 
+  }
+}
+
+
+
+
+
+.variousHeader{
+  display: flex;
+  font-size: 175%;
+  padding: 25px 0 7px 15px;
+  margin: 0;
+  flex-direction: column;
+}
+
+.shortTimeJobHeader{
+    display: flex;
+    font-size: 150%;
+    padding: 2px 0 3px 30px;
+    margin: 0;
+}
+
+.shortKeyAccomplishments{
+  display: flex;
+  font-size: 135%;
+  padding: 2px 0 0px 40px;
+  margin: 0;
+}
+
+
+.shortTimeJobLocation{
+  display: flex;
+  font-size: 100%;
+  padding: 2px 0 0px 50px;
+  margin: 0;
+}
+
+
+
+
+
+
+//education 
+.educationSchool{
+    display: flex;
+    font-size: 225%;
+    padding: 7px 0 0px 20px;
+    margin: 0;
+}
+
+.educationWhat{
+  display: flex;
+  font-size: 190%;
+  padding: 0px 0 1px 37px;
+  margin: 0;
+}
+
+.aboutEducation{
+  display: flex;
+  font-size: 150%;
+  padding: 2px 0 20px 55px;
+  margin: 0;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+//language
+
+
+.line{
+  border: none; 
+  border-top: 1px solid #c9647a; 
+  margin: 0px 1000px 10px 10px; 
+}
+
+.languageHeader{
+  display: flex;
+  font-size: 225%;
+  padding: 10px 0 2px 20px;
+  margin: 0;
+  font-weight: 150px;
+}
+
+
+
+
+.languageList{
+  display: flex;
+  flex-direction: column;
+  font-size: 150%;
+  padding: 10px 0 10px 50px;
+  margin: 0;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+//references
+.allReferences {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  padding: 1px; 
+ 
+}
+
+.referenceSection {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  gap: 20px; 
+  
+}
+
+
+
+
+.referenceEach {
+  padding: 20px 10px 20px 10px; 
+  flex: 1; 
+}
+
+
+.referenceName{
+  margin: 0;
+  font-size: 175%;
+  padding-top: 0;
+  margin: 0;
+  position: relative;
+  padding-left: 3px;
+}
+
+.referenceName::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+  width: 2px;
+  background-color: #000; /* Change this color to whatever you prefer */
+}
+
+
+.aboutReference {
+  list-style-type: disc; 
+  padding-left: 20px; 
+}
+
+.aboutReference li {
+  margin-left: 30px; 
+  padding-left: 1px; 
+}
+
+
+.referenceInformation{
+  margin: 0;
+  padding: 0px 20px 0px 10px; 
+  font-size: 125%;
+}
+
+
+
+
+
+
+
+
+
+
+
+//aboutMePage
+.aboutMeAll{
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutMeImage{
+  max-width: 100%; 
+  height: auto; 
+  width: 1700px; 
+  margin-left: 20px; 
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.aboutMeHeader{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 300%;
+  padding: 20px 15px 10px 15px;
+  margin: 0;
+}
+
+
+.aboutMeSummaryBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 140%;
+  padding: 20px 50px 0px 50px;
+  margin: 0;
+}
+
+.myLinks{
+  padding-top: 20px;
+}
+
+.link{
+  padding: 0px 15px 0px 15px;
+  color: rgb(177, 38, 98);
+  font-size: 125%;
+  
+}
+
+
+//projects
+
+.inProjectLinks{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 375px 0px 375px;
+}
+
+.projectLinkButton{
+  border: 0px;
+  background-color: rgb(218, 213, 213);
+  width: 500px;
+  font-size: 175%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.allProject{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.projectsHeader{
+  display: flex;
+  justify-content: center;
+  font-size: 375%;
+  text-decoration: underline;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.projectName{
+  display: flex;
+  font-size: 250%;
+  padding: 0px 0px 0px 020px;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.projectBody{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.projectInformation{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.desKeyHeader{
+  display: flex;
+  font-size: 175%;
+  padding: 10px 0px 5px 35px;
+  margin: 0;
+}
+
+.desKey{
+  display: flex;
+  font-size: 125%;
+  padding: 5px 0px 0px 65px;
+  margin: 0;
+  &::before {
+    content: '•'; 
+    position: absolute;
+    left: 48px;
+    font-size: 1.5em; 
+    line-height: 0.8; 
+  }
+}
+
+.allProjectLinks{
+  display: flex;
+  flex-direction: row;
+}
+
+.projectLink{
+  display: flex;
+  font-size: 125%;
+  padding: 10px 0px 35px 75px;
+  margin: 0;
+}
+
+
+// .projectImage{
+//   display: flex;
+//   justify-content: right;
+//   height: 10px;
+//   width: 10px;
+// }
+
+
+.projectBody {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; 
+}
+
+.projectImage {
+  max-width: 100%; 
+  height: auto; 
+  width: 700px; 
+
+  margin-left: 20px; 
+  padding-right: 20px;
+  padding-top: 65px;
+}
+
+
+
+.blank {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  width: auto; 
+  text-align: end;
+  padding: 15px 20px 40px 0px;
+}
+
+.backToTopButton {
+  padding: 10px 20px; 
+  font-size: 20px; 
+  background-color: rgb(218, 213, 213);;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.backToTopButton:hover {
+  background-color: rgb(218, 213, 213);
+}
+
+
+
+
+
+
+
+
+
+
+//contact 
+.contact-page {
+  position: relative;
+  text-align: center;
+}
+
+.success-message {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(177, 38, 98);
+  color: bisque;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.contact-container {
+  max-width: 700px;
+  max-height: 700px;
+  margin: 100px auto 50px;
+  padding: 15px;
+  background-color: rgb(132, 128, 128);
+  color: bisque;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-header {
+  font-size: 50px;
+  margin: 0px;
+  padding: 0;
+
+}
+
+.contact-subheader {
+  font-size: 22px;
+  margin: 0px;
+  padding: 10px 0px 14px 0px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input,
+.contact-textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+}
+
+.contact-textarea {
+  height: 100px;
+  resize: none;
+  color: black;
+}
+
+.contact-button {
+  padding: 10px;
+  background-color: rgb(177, 38, 98);
+  color: bisque;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//footer
+.footer{
+  display: flex;
+  // background-color: rgb(62, 62, 65);
+  // background-color: rgb(211, 116, 137);
+  background-color: rgb(218, 213, 213);
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(177, 38, 98);
+  font-size: 125%;
+  padding-top: 30px;
+  margin: 0;
+}
+
+
+//home page 
+
+
+
+
+
+
+
+

@@ -1,4 +1,17 @@
 {
+  "name": "myPortfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
@@ -10,5 +23,9 @@
     "react-devtools": "^5.3.1",
     "react-router-dom": "^6.25.1",
     "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "sass": "^1.77.2"
   }
 }
