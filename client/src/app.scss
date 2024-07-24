@@ -14,12 +14,15 @@
       align-items: center;
       padding: 0px;
       margin: 0px;
+      font-size: 200%;
     }
 
     .homePageLinks{
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 0px;
+      margin: 0px;
     }
     
     .mainLink{
@@ -73,22 +76,96 @@
       flex-direction: column;
       width: 100%;
       text-align: center;
-      padding: 0px;
+      padding: 5px 0px 0px 0px;
       margin: 0px;
     }
 
 
     .projectsHeader{
       display: flex;
-      flex-direction: column;
+      padding-left: 5px;
+      font-size: 335%;
     }
 
 
 
+    .projectBody{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+    }
 
 
+    .projectName{
+      display: flex;
+      font-size: 250%;
+      padding: 0px 0px 0px 10px;
+      margin: 0;
+      text-decoration: underline;
+      text-decoration-thickness: 3px;
+    }
 
+    .projectInformation{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+    }
+    
+    .desKeyHeader{
+      display: flex;
+      font-size: 175%;
+      padding: 10px 0px 5px 20px;
+      margin: 0;
+    }
+    
+    .desKey{
+      display: flex;
+      font-size: 125%;
+      padding: 5px 0px 0px 43px;
+      margin: 0;
+      &::before {
+        content: '•'; 
+        position: absolute;
+        left: 30px;
+        font-size: 1.5em; 
+        line-height: 0.8; 
+      }
+    }
 
+    .allProjectLinks{
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .projectLink{
+      display: flex;
+      font-size: 150%;
+      padding: 5px 0px 0px 40px;
+      margin: 0;
+    }
+
+    .projectImage {
+      max-width: 100%; 
+      height: auto; 
+      width: 450px; 
+      margin-left: 20px; 
+      padding: 0px 0px 10px 0px;
+    }
+
+    .studentLinkHeaderMedia{
+      padding-top: 40px;
+    }
+
+    .backToTopButton {
+      padding: 10px 20px; 
+      font-size: 20px; 
+      background-color: rgb(218, 213, 213);
+      border: none;
+      border-radius: 0px;
+      cursor: pointer;
+      margin-bottom: 40px;
+    }
 
 
 

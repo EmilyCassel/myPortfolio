@@ -45,7 +45,8 @@ function Portfolio() {
             <img src={freeLancer} className="projectImage" />
           </div>
 
-          <h2 className="projectName">StudentLink</h2>
+
+          <h2 className="projectName studentLinkHeaderMedia">StudentLink</h2>
           <div className="projectBody">
             <div className="projectInformation">
               <h3 className="desKeyHeader">Description:</h3>
@@ -89,11 +90,6 @@ function Portfolio() {
 
         </div>
       </div>
-
-
-
-
-
 
       <div className="blank">
         <button className="backToTopButton" onClick={() => scrollToSection('top')}>
