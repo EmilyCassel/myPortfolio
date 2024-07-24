@@ -1,11 +1,12 @@
-function Footer (){
-    return(
+function Footer() {
+    return (
         <footer>
-            
-            <div className="footer">
-                <p>2024 Emily Cassel. All rights reserved</p>
-            </div>
-            
+         <div className="footer">
+                    <a className="link" href="https://www.linkedin.com/in/emily-cassel-5a2980245/">LinkedIn</a>
+                    <a className="link" href="https://github.com/EmilyCassel">GitHub</a>
+                    <p className="footerName">&copy; 2024 Emily Cassel </p>
+                </div>
+                
         </footer>
     )
 }

@@ -67,9 +67,9 @@ main{
 
 .myName{
   display: flex;
-  color: pink;
+  color: bisque;
   padding-left: 20px;
-  font-size: 150%;
+  font-size: 155%;
   margin: 0;
   padding: 1px 0px 0px 25px;
 }
@@ -86,7 +86,7 @@ main{
   display: flex;
   color: bisque;
   padding-left: 15px;
-  font-size: 150%;
+  font-size: 155%;
   margin: 0;
   padding-bottom: 0;
   padding-right: 20px;
@@ -107,11 +107,12 @@ main{
   font-size: 380%;
   margin: 0;
   color: rgb(177, 38, 98);
-  padding-bottom: 2px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .jobAm{
-  font-size: 270%;
+  font-size: 285%;
   margin: 0;
   color: black;
   padding-bottom: 2px;
@@ -132,15 +133,22 @@ main{
   padding-top: 0px ;
 }
 
-.homeLine{
+.homeLineOne{
   display: flex;
   border: none; 
   border-top: 2px solid #c9647a;
   padding: 10px 0px 0px 0px;
-  margin: 10px auto 0px auto; 
+  margin: 0px auto 0px auto; 
+  width: 23%;
+}
+.homeLineTwo{
+  display: flex;
+  border: none; 
+  border-top: 2px solid #c9647a;
+  padding: 10px 0px 0px 0px;
+  margin: 3px auto 0px auto; 
   width: 34%;
 }
-
 
 
 
@@ -491,19 +499,22 @@ hr{
 .aboutMeImage{
   max-width: 100%; 
   height: auto; 
-  width: 1700px; 
+  width: 2500px; 
   margin-left: 20px; 
   padding-right: 20px;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 .aboutMeHeader{
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 300%;
-  padding: 20px 15px 10px 15px;
+  font-size: 235%;
+  padding: 20px 15px 5px 15px;
   margin: 0;
+  text-decoration: underline;
+  text-decoration-color: #c9647a;;
+  text-decoration-thickness: 2px;
 }
 
 
@@ -511,13 +522,14 @@ hr{
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 140%;
-  padding: 20px 50px 0px 50px;
+  font-size: 147%;
+  padding: 0px 55px 0px 55px;
   margin: 0;
 }
 
-.myLinks{
-  padding-top: 20px;
+.aboutMeParagraph{
+  padding: 10px 0px 10px 0px;
+  margin: 0;
 }
 
 
@@ -749,11 +761,14 @@ hr{
   flex-direction: row;
   justify-content: center;
   color: rgb(177, 38, 98);
-  font-size: 125%;
-  padding-top: 30px;
+  font-size: 140%;
+  padding: 10px 25px 0px 20px;
   margin: 0;
   padding-bottom: 0;
+  justify-content: space-between;
 }
+
+
 
 
 

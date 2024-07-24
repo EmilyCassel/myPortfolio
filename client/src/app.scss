@@ -167,10 +167,21 @@
       margin-bottom: 40px;
     }
 
+    .footer{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
 
+    .link{
+      padding: 0px 0px 30px 0px;
+    }
 
-
-
+    .footerName{
+      padding: 0px 0px 10px 0px;
+    }
 
 
 
