@@ -12,13 +12,19 @@ function AboutMe() {
                 <div className="aboutMeSummaryBox">
                     <h1 className="aboutMeHeader">About Me</h1>
                         <p className="aboutMeParagraph">
-                        I am a full stack web development looking to launch my career in this field. I live in Indiana. My days are spent coding, reading, and enjoying time outside with my dog. I also enjoy backpacking, history, and travel. My goal is to bring a creative and engaging user experience to any project I work on. 
+                            I am a newly trained full-stack web developer living in Indiana, aspiring to launch a career in this exciting field. I am flexible and amenable to relocating. I am particularly passionate about front end development yet feel proficient in all aspects of web development. I liken the imaginative aspect of web development to having Hobby Lobby at my fingertips! I enjoy the ability to take what is in my mind and bring it to life through web development tools.  
                         </p>
                         <p className="aboutMeParagraph">
-                        I am armed with a many different areas of web development including HTML, CSS, JavaScript and React framework. I also enjoy learning new areas of web development, such as TypeScript and I worked hard in my course at Rutgers to develop my skills and I am working to increase my areas of experience. 
+                            My goal is to bring a creative and engaging user experience to all projects. I am armed with knowledge in many different areas, including HTML, CSS, JavaScript, MySQL and MERN Stack.  The creative and real-world applicability of web development appeals to my artistic instincts and desire to produce aesthetic and captivating projects. I am dedicated to bringing a fresh eye to all projects and leveraging my diverse skill set and interests to launch a career in full-stack JavaScript development.
                         </p>
                         <p className="aboutMeParagraph">
-                        I have fervent enthusiasm and passion for front end web development I have not found in any other part of my life. I am specifically interested in Front-End Development because I enjoy the creativity and real-world applicability. I put my heart and creativity into any project I am working on. I am eager to leverage my diverse skill set and interest for web development to pursue a career in full-stack JavaScript development. If you’re interest in contacting me, please email me emilycassel77@gmail.com. 
+                            I continue to enjoy learning new aspects of web development and am driven to stay current in new concepts as they develop. I endeavor to continue refining the skills I mastered in training, and eagerly look forward to reinforcing them through ongoing work experience.
+                        </p>
+                        <p className="aboutMeParagraph">
+                            Coding, reading and enjoying time outside with my dog describes my typical daily routine. I spend my free time backpacking, quilting, running, traveling and increasing my knowledge of history. 
+                        </p>
+                        <p className="aboutMeParagraph">
+                            I am looking forward to working with you. If interested, please refer to my contact page.
                         </p>
                     
                 </div>
