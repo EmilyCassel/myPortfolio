@@ -9,9 +9,6 @@ function Header() {
                 <h2><a className="mainLink" href="/Portfolio">Projects</a></h2>
                 <h2><a className="mainLink" href="/Contact">Contact</a></h2>
             </nav>
-           
-
-
         </header>
     )
 }

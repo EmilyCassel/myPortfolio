@@ -1,3 +1,7 @@
+import React from 'react';
+import './index.scss';
+import './app.scss';
+
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 

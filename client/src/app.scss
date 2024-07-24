@@ -1,0 +1,107 @@
+@media (min-width:414px) and (max-width:932px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    .myName{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .homePageLinks{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .mainLink{
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .homeLine{
+      width: 100%;
+    }
+
+    .inPageLinks{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .resumeLinkButton{
+      padding: 5px 0px 5px 0px;
+    }
+
+    .referenceSection{
+      display: flex;
+      flex-direction: column;
+    } 
+
+    .aboutMeAll{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .imageContainer{
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .aboutMeImage{
+      max-width: 95%; 
+      height: auto; 
+      width: 500px;  
+      padding: 15px 0px 0px 15px;
+      margin: 0px;
+    }
+
+
+    .inProjectLinks{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+
+
+    .projectsHeader{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+  
+
+
+  

@@ -11,7 +11,7 @@ function Home() {
                     </div>
                     <hr className="homeLine"></hr>
                 <div className="introLines">
-                    <p className="introSentence">I am a recent graduate of well-respected full stack web development from Rutgers University Coding Bootcamp program. I am looking for full time employment in this exciting and creative field.</p>
+                    <p className="introSentence">I am a recent graduate of well-respected full stack web development course from Rutgers University Coding Bootcamp program. I am looking for full time employment in this exciting and creative field.</p>
                     <p className="introSentence">I excel and specialize in JavaScript, CSS, and UI/UX design and development. I am adept at collaborating within agile environments, delivering clean code, and communicating effectively.</p>
                     <p className="introSentence">I pursued this program to enrich my technological capabilities while my Customs Brokers License was being processed. During my coding course I became completely engaged and recognized my passion for a career in web development.</p>
                 </div> 
