@@ -11,6 +11,7 @@ function Home() {
                     <p className="introSentence">I excel and specialize in JavaScript, CSS, and UI/UX design and development. I am adept at collaborating within agile environments, delivering clean code, and communicating effectively.</p>
                     <p className="introSentence">I pursued this program to enrich my technological capabilities while my Customs Brokers License was being processed. During my coding course I became completely engaged and recognized my passion for a career in web development.</p>
                 </div> 
+
         </div>
     )
 }
