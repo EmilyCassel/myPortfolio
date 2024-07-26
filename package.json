@@ -22,15 +22,14 @@
     "node-fetch": "^3.3.2",
     "react-devtools": "^5.3.1",
     "react-router-dom": "^6.25.1",
-    "react-select": "^5.8.0"
+    "react-select": "^5.8.0",
+    "vite": "^5.3.5"
   },
   "devDependencies": {
     "concurrently": "^8.2.0",
     "sass": "^1.77.2"
   },
-  "engines" : { 
-    "node" : "21.6.1"
+  "engines": {
+    "node": "21.6.1"
   }
-  
 }
-
