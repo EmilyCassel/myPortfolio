@@ -27,6 +27,10 @@
   "devDependencies": {
     "concurrently": "^8.2.0",
     "sass": "^1.77.2"
+  },
+  "engines" : { 
+    "node" : "21.6.1"
   }
+  
 }
 
