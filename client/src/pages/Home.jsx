@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div className="homeIntro">
-            <h1 className="introName">Emily Cassel</h1>
+            {/* <h1 className="introName">Emily Cassel</h1> */}
             <hr className="homeLineOne"></hr>
                 <h2 className="jobAm">Full Stack Web Developer</h2>
             <hr className="homeLineTwo"></hr>
